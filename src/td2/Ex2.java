@@ -1,9 +1,9 @@
 package td2;
 
-public class Point2{
+public class Ex2{
     private double x,y;
     private String nom;
-    public Point2(String nom,double x,double y){
+    public Ex2(String nom,double x,double y){
           this.x=x ;
          this.y=y ;
            this.nom=nom;}

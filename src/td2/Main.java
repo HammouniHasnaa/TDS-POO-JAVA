@@ -1,18 +1,18 @@
 package td2;
 
-import td2.Point;
-import td2.Point2;
+import td2.Ex1;
+import td2.Ex2;
 
 public class Main {
     public static void main(String[] args) {
         //ex1
-        Point pt1= new Point('a',23);
+        Ex1 pt1= new Ex1('a',23);
         System.out.println( pt1.x);
         System.out.println( pt1.nom);
         pt1.translate(5.4);
         System.out.println(pt1.x);
         //ex2
-        Point2 pt2=new Point2("H",3.5,4.1);
+        Ex2 pt2=new Ex2("H",3.5,4.1);
         System.out.println(pt2.Norme());
         pt2.setNom("A");
         System.out.println(pt2.getNom());

@@ -1,15 +1,17 @@
 package td2;
 
-public class Point {
+
+
+public class Ex1 {
     double x;
     char nom;
     //contructeur par defaut
-    public Point(){
+    public Ex1(){
         x=6 ;
         nom='b';
     }
     //constructeur paramétrique
-    public Point (char n,double x) {
+    public Ex1 (char n,double x) {
         this.nom = n;
        this.x = x;
     }
